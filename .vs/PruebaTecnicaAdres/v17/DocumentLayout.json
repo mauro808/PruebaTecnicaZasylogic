@@ -1,0 +1,280 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|c:\\users\\user\\desktop\\zasylogic\\pruebatecnicaadres\\pruebatecnicaadres\\services\\jsonfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|solutionrelative:pruebatecnicaadres\\services\\jsonfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|c:\\users\\user\\desktop\\zasylogic\\pruebatecnicaadres\\pruebatecnicaadres\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|solutionrelative:pruebatecnicaadres\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|c:\\users\\user\\desktop\\zasylogic\\pruebatecnicaadres\\pruebatecnicaadres\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|solutionrelative:pruebatecnicaadres\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|c:\\users\\user\\desktop\\zasylogic\\pruebatecnicaadres\\pruebatecnicaadres\\clientes.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|solutionrelative:pruebatecnicaadres\\clientes.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|c:\\users\\user\\desktop\\zasylogic\\pruebatecnicaadres\\pruebatecnicaadres\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|solutionrelative:pruebatecnicaadres\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|c:\\users\\user\\desktop\\zasylogic\\pruebatecnicaadres\\pruebatecnicaadres\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|solutionrelative:pruebatecnicaadres\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|c:\\users\\user\\desktop\\zasylogic\\pruebatecnicaadres\\pruebatecnicaadres\\views\\clientes\\nuevo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|solutionrelative:pruebatecnicaadres\\views\\clientes\\nuevo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|c:\\users\\user\\desktop\\zasylogic\\pruebatecnicaadres\\pruebatecnicaadres\\views\\clientes\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|solutionrelative:pruebatecnicaadres\\views\\clientes\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|c:\\users\\user\\desktop\\zasylogic\\pruebatecnicaadres\\pruebatecnicaadres\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|solutionrelative:pruebatecnicaadres\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|c:\\users\\user\\desktop\\zasylogic\\pruebatecnicaadres\\pruebatecnicaadres\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|solutionrelative:pruebatecnicaadres\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|c:\\users\\user\\desktop\\zasylogic\\pruebatecnicaadres\\pruebatecnicaadres\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|solutionrelative:pruebatecnicaadres\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|c:\\users\\user\\desktop\\zasylogic\\pruebatecnicaadres\\pruebatecnicaadres\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|solutionrelative:pruebatecnicaadres\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|c:\\users\\user\\desktop\\zasylogic\\pruebatecnicaadres\\pruebatecnicaadres\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|solutionrelative:pruebatecnicaadres\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|c:\\users\\user\\desktop\\zasylogic\\pruebatecnicaadres\\pruebatecnicaadres\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|solutionrelative:pruebatecnicaadres\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|c:\\users\\user\\desktop\\zasylogic\\pruebatecnicaadres\\pruebatecnicaadres\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F8EB05C-2EEB-4EA8-AF45-2F82B0A352FF}|PruebaTecnicaAdres\\PruebaTecnicaAdres.csproj|solutionrelative:pruebatecnicaadres\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\PruebaTecnica\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\Models\\Adquisicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\Program.cs",
+              "RelativeDocumentMoniker": "PruebaTecnicaAdres\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\Program.cs",
+              "RelativeToolTip": "PruebaTecnicaAdres\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T19:49:44.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "PruebaTecnicaAdres\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "PruebaTecnicaAdres\\Controllers\\ClientesController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAawDkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T18:52:57.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Lista.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\Views\\Clientes\\Lista.cshtml",
+              "RelativeDocumentMoniker": "PruebaTecnicaAdres\\Views\\Clientes\\Lista.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\Views\\Clientes\\Lista.cshtml",
+              "RelativeToolTip": "PruebaTecnicaAdres\\Views\\Clientes\\Lista.cshtml",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAAAJgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T15:30:16.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JsonFileService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\Services\\JsonFileService.cs",
+              "RelativeDocumentMoniker": "PruebaTecnicaAdres\\Services\\JsonFileService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\Services\\JsonFileService.cs",
+              "RelativeToolTip": "PruebaTecnicaAdres\\Services\\JsonFileService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T17:39:57.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Nuevo.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\Views\\Clientes\\Nuevo.cshtml",
+              "RelativeDocumentMoniker": "PruebaTecnicaAdres\\Views\\Clientes\\Nuevo.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\Views\\Clientes\\Nuevo.cshtml",
+              "RelativeToolTip": "PruebaTecnicaAdres\\Views\\Clientes\\Nuevo.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T16:17:46.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\appsettings.json",
+              "RelativeDocumentMoniker": "PruebaTecnicaAdres\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\appsettings.json",
+              "RelativeToolTip": "PruebaTecnicaAdres\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-14T06:31:01.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "PruebaTecnicaAdres\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "PruebaTecnicaAdres\\wwwroot\\css\\style.css",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAgwLcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-14T16:16:01.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PruebaTecnicaAdres\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PruebaTecnicaAdres\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T19:47:38.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "clientes.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\clientes.json",
+              "RelativeDocumentMoniker": "PruebaTecnicaAdres\\clientes.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\clientes.json",
+              "RelativeToolTip": "PruebaTecnicaAdres\\clientes.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-14T17:55:38.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "PruebaTecnicaAdres\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "PruebaTecnicaAdres\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T19:47:48.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "PruebaTecnicaAdres\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "PruebaTecnicaAdres\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-14T16:21:01.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "PruebaTecnicaAdres\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\Models\\Cliente.cs",
+              "RelativeToolTip": "PruebaTecnicaAdres\\Models\\Cliente.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAowBAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T04:58:56.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PruebaTecnicaAdres\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PruebaTecnicaAdres\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAC4AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T16:22:21.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "PruebaTecnicaAdres\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "PruebaTecnicaAdres\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-14T17:31:03.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PruebaTecnicaAdres\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Zasylogic\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PruebaTecnicaAdres\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T06:29:57.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Adquisicion.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PruebaTecnica\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\Models\\Adquisicion.cs",
+              "RelativeDocumentMoniker": "..\\..\\PruebaTecnica\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\Models\\Adquisicion.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PruebaTecnica\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\Models\\Adquisicion.cs",
+              "RelativeToolTip": "..\\..\\PruebaTecnica\\PruebaTecnicaAdres\\PruebaTecnicaAdres\\Models\\Adquisicion.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA9wAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:12:52.845Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

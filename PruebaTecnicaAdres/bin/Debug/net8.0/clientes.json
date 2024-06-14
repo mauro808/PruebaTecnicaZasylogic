@@ -1,0 +1,29 @@
+[
+  {
+    "Nombres": "Andres Mauricio",
+    "Apellidos": "Jaramillo Tuberquia",
+    "Telefono": "3233563228",
+    "Email": "mauricio808@outlook.es",
+    "Sexo": "Hombre",
+    "Motivo": "hola",
+    "FechaAlta": "2024-06-14"
+  },
+  {
+    "Nombres": "Andres Mauricio",
+    "Apellidos": "Jaramillo Tuberquia",
+    "Telefono": "3233563228",
+    "Email": "mauricio808@outlook.es",
+    "Sexo": "Hombre",
+    "Motivo": "hola",
+    "FechaAlta": "2024-06-14"
+  },
+  {
+    "Nombres": "Andres Bernal",
+    "Apellidos": "Tuberquia",
+    "Telefono": "32566775",
+    "Email": "hb@gmail.com",
+    "Sexo": "Hombre",
+    "Motivo": "hola",
+    "FechaAlta": "2024-06-14"
+  }
+]

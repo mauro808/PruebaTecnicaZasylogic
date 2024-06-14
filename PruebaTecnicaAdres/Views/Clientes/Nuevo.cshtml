@@ -1,0 +1,61 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model PruebaTecnicaAdres.Models.Cliente;
+<form class="form" asp-controller="Clientes" asp-action="Nuevo" method="post">
+    <h2>Formulario web de atencion al cliente</h2>
+    <p type="Nombre:"><input id="nombre" placeholder="Escribe tu nombre" asp-for="Nombres" type="text"></input></p>
+    <p type="Apellido:"><input id="apellido" placeholder="Escribe tu apellido" asp-for="Apellidos" type="text"></input></p>
+    <p type="Telefono:"><input id="telefono" placeholder="Escribe tu telefono" asp-for="Telefono" type="text"></input></p>
+    <p type="Email:"><input id="correo" placeholder="Escribe tu email" asp-for="Email" type="text"></input></p>
+    <p type="Genero">
+        <select id="opciones" asp-for="Sexo" class="form-select" itemid="genero" type="text">
+            <option value="" selected>Selecciona una opcion</option>
+            <option value="Hombre">Hombre</option>
+            <option value="Mujer">Mujer</option>
+        </select>
+    </p>
+    <p type="Motivo:"><input id="motivo" asp-for="Motivo" type="text"></input></p>
+    <button type="submit">Send Message</button>
+</form>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+        var form = document.querySelector("form");
+        form.addEventListener("submit", function (event) {
+            if (!validarEmail() || !validarDataVacia()) {
+                Swal.fire({
+                    icon: "error",
+                    title: "Oops...",
+                    text: "Parece que tienes campos vacíos. Completa todos los campos y oprime Guardar"
+                });
+                event.preventDefault();
+            }
+        });
+
+        function validarEmail() {
+            const re = /^\S+@@\S+\.\S+$/;
+            return re.test(correo.value);
+        }
+
+        function validarDataVacia() {
+            var nombre = document.getElementById("nombre").value.trim();
+            var genero = document.getElementById("opciones").value.trim();
+            var motivo = document.getElementById("motivo").value.trim();
+            var apellido = document.getElementById("apellido").value.trim();
+            var telefono = document.getElementById("telefono").value.trim();
+            var correo = document.getElementById("correo").value.trim();
+            if (!nombre || !apellido || !telefono || !genero || !motivo || !correo) {
+                return false;
+            }
+
+            return true;
+        }
+
+    });
+</script>
+
+    

@@ -1,0 +1,152 @@
+﻿@*
+   For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model List<PruebaTecnicaAdres.Models.Cliente>;
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Clientes</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@10.14.1/dist/sweetalert2.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-sm-8 offset-sm-2">
+                <h2>Lista de Clientes</h2>
+                <a asp-controller="Clientes" asp-action="Nuevo" class="btn btn-success mb-4">Agregar</a>
+                <h3>Filtrar datos por rango de fechas</h3>
+
+                <form id="filtroFechas" class="form-inline mb-4">
+                    <label for="fechaInicio" class="mr-2">Fecha de inicio:</label>
+                    <input type="date" id="fechaInicio" name="fechaInicio" class="form-control form-control-sm mx-1">
+
+                    <label for="fechaFin" class="mr-2">Fecha de fin:</label>
+                    <input type="date" id="fechaFin" name="fechaFin" class="form-control form-control-sm mx-1">
+
+                    <button type="submit" class="btn btn-primary btn-sm">Filtrar</button>
+                </form>
+
+                <table class="table table-bordered table-hover" id="tablaDatos">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th onclick="ordenarTabla(0)">Nombre</th>
+                            <th onclick="ordenarTabla(1)">Apellido</th>
+                            <th onclick="ordenarTabla(2)">Teléfono</th>
+                            <th onclick="ordenarTabla(3)">Email</th>
+                            <th onclick="ordenarTabla(4)">Sexo</th>
+                            <th onclick="ordenarTabla(5)">Motivo</th>
+                            <th onclick="ordenarTabla(6)">Fecha</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.Nombres</td>
+                                <td>@item.Apellidos</td>
+                                <td>@item.Telefono</td>
+                                <td>@item.Email</td>
+                                <td>@item.Sexo</td>
+                                <td>@item.Motivo</td>
+                                <td>@item.FechaAlta</td> 
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.14.1/dist/sweetalert2.min.js"></script>
+
+    <script>
+        function ordenarTabla(columnIndex) {
+            var tabla = document.getElementById('tablaDatos');
+            var tbody = tabla.querySelector('tbody');
+            var rows = Array.from(tbody.querySelectorAll('tr'));
+            var sortOrder = 1;
+            if (tabla.rows[0].cells[columnIndex].classList.contains('sorted')) {
+                sortOrder = -1;
+                tabla.rows[0].cells[columnIndex].classList.remove('sorted');
+            } else {
+                tabla.rows[0].cells[columnIndex].classList.add('sorted');
+            }
+
+            rows.sort(function (rowA, rowB) {
+                var cellA = rowA.cells[columnIndex].textContent.trim();
+                var cellB = rowB.cells[columnIndex].textContent.trim();
+                if (isNaN(cellA) || isNaN(cellB)) {
+                    return cellA.localeCompare(cellB) * sortOrder;
+                } else {
+                    return (parseFloat(cellA) - parseFloat(cellB)) * sortOrder;
+                }
+            });
+            while (tbody.firstChild) {
+                tbody.removeChild(tbody.firstChild);
+            }
+            rows.forEach(function (row) {
+                tbody.appendChild(row);
+            });
+        };
+
+        document.addEventListener("DOMContentLoaded", function () {
+            function refreshPage() {
+                location.reload();
+            }
+            setInterval(refreshPage, 30000);
+            var tabla = document.getElementById('tablaDatos');
+            var tbody = tabla.querySelector('tbody');
+            var rows = Array.from(tbody.querySelectorAll('tr'));
+
+            document.getElementById('filtroFechas').addEventListener('submit', function (e) {
+                e.preventDefault();
+
+                var fechaInicioInput = document.getElementById('fechaInicio').value;
+                var fechaFinInput = document.getElementById('fechaFin').value;
+
+                if (!fechaInicioInput || !fechaFinInput) {
+                    Swal.fire({
+                        icon: "warning",
+                        title: "Advertencia",
+                        text: "Por favor, seleccione ambas fechas."
+                    });
+                    return; 
+                }
+
+                var fechaInicio = new Date(fechaInicioInput);
+                var fechaFin = new Date(fechaFinInput);
+
+                var found = false;
+
+                rows.forEach(function (row) {
+                    var fechaItemStr = row.cells[6].textContent.trim(); 
+                    var fechaItem = new Date(fechaItemStr);
+                    if (!isNaN(fechaItem) && fechaItem >= fechaInicio && fechaItem <= fechaFin) {
+                        row.style.display = '';
+                        found = true;
+                    } else {
+                        row.style.display = 'none'; 
+                    }
+                });
+
+                if (!found) {
+                    Swal.fire({
+                        icon: "error",
+                        title: "Oops...",
+                        text: "No existen registros en este rango de fechas"
+                    });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

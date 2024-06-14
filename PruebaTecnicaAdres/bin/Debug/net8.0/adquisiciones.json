@@ -1,0 +1,50 @@
+[
+  {
+    "Id": 1,
+    "Presupuesto": 15000.0,
+    "Unidad": "Medicina Col",
+    "Tipo": null,
+    "Cantidad": 15,
+    "ValorUnitario": 15000,
+    "ValorTotal": 0.0,
+    "FechaAdquisicion": "2024-05-30T00:00:00",
+    "Proveedor": "0.0",
+    "Documentacion": "0.0"
+  },
+  {
+    "Id": 2,
+    "Presupuesto": 15000.0,
+    "Unidad": "Medicina Col",
+    "Tipo": null,
+    "Cantidad": 15,
+    "ValorUnitario": 15000,
+    "ValorTotal": 0.0,
+    "FechaAdquisicion": "2024-06-13T00:00:00",
+    "Proveedor": "0.0",
+    "Documentacion": "0.0"
+  },
+  {
+    "Id": 3,
+    "Presupuesto": 15000.0,
+    "Unidad": "Medicina Col",
+    "Tipo": "Viveres",
+    "Cantidad": 15,
+    "ValorUnitario": 15000,
+    "ValorTotal": 22500000.0,
+    "FechaAdquisicion": "2024-06-01T00:00:00",
+    "Proveedor": "Emmedica",
+    "Documentacion": "AL-108 0994553"
+  },
+  {
+    "Id": 4,
+    "Presupuesto": 15000.0,
+    "Unidad": "Medicina Col",
+    "Tipo": "Viveres",
+    "Cantidad": 15,
+    "ValorUnitario": 15000,
+    "ValorTotal": 22500000.0,
+    "FechaAdquisicion": "2024-05-28T00:00:00",
+    "Proveedor": "Emmedica",
+    "Documentacion": "AL-108 0994553"
+  }
+]
